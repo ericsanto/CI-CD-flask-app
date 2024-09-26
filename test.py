@@ -14,3 +14,8 @@ def test_hello_world(client):
     assert response.data == b'Hello. Iam FLask'
     assert response.status_code == 200
 
+
+def test_teste(client):
+    response = client.get('/testeab')
+    assert response.data == b'Hello. Iam FLask'
+    assert response.status_code == 200

@@ -17,5 +17,5 @@ def test_hello_world(client):
 
 def test_teste(client):
     response = client.get('/testeab')
-    assert response.data == b'Hello. Iam FLask'
+    assert response.data == b'Essa. e uma pagina para teste'
     assert response.status_code == 200

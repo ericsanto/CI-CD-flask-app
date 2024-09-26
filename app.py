@@ -7,7 +7,7 @@ def hello_world():
     return "Hello. Iam FLask"
 
 
-@app.route("/teste")
+@app.route("/testea")
 def teste():
     return "Essa é uma página de teste"
 

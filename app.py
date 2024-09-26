@@ -9,7 +9,7 @@ def hello_world():
 
 @app.route("/testeabc")
 def teste():
-    return "Essa é uma página de teste"
+    return "Essa. e uma pagina para teste"
 
 if __name__ == '__main__':
 	app.run(debug=True, host='0.0.0.0')
